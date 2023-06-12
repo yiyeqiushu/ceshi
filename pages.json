@@ -1,0 +1,79 @@
+{
+	"tabBar": {/*///---- Pages-Tool --  合并自： pages-config/tabBar.json ----*/
+		"color": "#909399",
+		"selectedColor": "#007AFF",
+		"backgroundColor": "#F8F8F8",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/shuxie",
+				"text": "我的"
+			}
+		]
+	}, 
+	"pages": [/*///---- Pages-Tool --  合并自： pages-config/pages-all.json ----*/
+		/* 首页 */
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",// 隐藏系统导航栏
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/shuxie",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/cebian/cebian",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/sousuo/sousuo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search_results",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/post_details",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

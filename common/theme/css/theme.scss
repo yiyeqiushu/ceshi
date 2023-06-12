@@ -1,0 +1,207 @@
+/* =============================默认============================= */
+[data-theme='index'] {
+	/* 图标 */
+	.u-icon{
+		 color:  #409eff !important;
+	}
+	//底部
+	.own-tabbars .u-tabbar__content__item{
+		background: linear-gradient(45deg, rgb(32, 171, 254), rgb(60, 199, 254)) !important;
+		.u-tabbar__content__item__text{
+			color: #fff !important;
+		}
+		.u-iconfont{
+			color: #fff !important;
+		}
+	}
+	background: linear-gradient(45deg, rgb(32, 171, 254), rgb(60, 199, 254)) !important;
+	color: #fff !important;
+	//底部
+	.tabbar-item{
+		 background-color: #ffffff!important;
+	 }
+	.tabbarActive{
+		color:  #67a9fd!important;
+	}
+	.tab-icon,.tab-text{
+		color:  #000 !important;
+	}
+	.tab-icon-select{
+		color:  #67a9fd !important;
+	}
+	
+}
+
+/* =============================极致黑============================= */
+[data-theme='black'] {
+	/* 图标 */
+	.u-icon{
+		 color:  #4e4e4e !important;
+	}
+	//底部
+	.u-tabbar__content__item{
+		// background-color: #4e4e4e !important;
+		background: linear-gradient(45deg, rgb(78, 78, 78), rgb(78, 78, 78)) !important;
+		.u-tabbar__content__item__text{
+			color: #fff !important;
+		}
+		.u-iconfont{
+			color: #fff !important;
+		}
+	}
+	background: linear-gradient(45deg, rgb(78, 78, 78), rgb(78, 78, 78)) !important;
+	color: #fff !important;
+	//底部
+	.tabbar-item{
+		 background-color: #4e4e4e!important;
+	 }
+	.tabbarActive{
+		color:  #fff!important;
+	}
+	.tab-icon,.tab-text{
+		color:  #f4f4f4 !important;
+	}
+	.tab-icon-select{
+		color:  #fff !important;
+	}
+	
+}
+/* =============================藏青蓝============================= */
+[data-theme='blue']{
+	/* 图标 */
+	.u-icon{
+		 color:  #2fa6c8 !important;
+	}
+	background: linear-gradient(45deg, rgb(47, 166, 200), rgb(47, 166, 200)) !important;
+	color: #fff !important;
+	//底部
+	.u-tabbar__content__item{
+		background: linear-gradient(45deg, rgb(47, 166, 200), rgb(47, 166, 200)) !important;
+		.u-tabbar__content__item__text{
+			color: #fff !important;
+		}
+		.u-iconfont{
+			color: #fff !important;
+		}
+	}
+	
+	//底部
+	.tabbar-item{
+		 background-color: #2fa6c8!important;
+	 }
+	.tabbarActive{
+		color:  #fff!important;
+	}
+	.tab-icon,.tab-text{
+		color:  #f4f4f4 !important;
+	}
+	.tab-icon-select{
+		color:  #fff !important;
+	}
+}
+
+
+
+/* =============================灰色========================================================== */
+[data-theme='grey']{
+	/* 图标 */
+	.u-icon{
+		 color:  #4e4e4e !important;
+	}
+	.u-tabbar__content__item{
+		background-color: #d6d6d6 !important;
+		.u-tabbar__content__item__text{
+			color: #000 !important;
+		}
+		.u-iconfont{
+			color: #000 !important;
+		}
+	}
+	background: linear-gradient(45deg, rgb(214, 214, 214), rgb(214, 214, 214)) !important;
+	color: #000 !important;
+	//底部
+	.tabbar{
+		background: linear-gradient(45deg, rgb(214, 214, 214), rgb(214, 214, 214)) !important;
+	 }
+	.tabbarActive{
+		color:  #000 !important;
+	}
+	.tab-icon{
+		color:  #919191 !important;
+	}
+	.tab-icon-select{
+		color:  #000 !important;
+	}
+	
+}
+
+
+
+
+/* =============================护眼绿============================= */
+[data-theme='green']{
+	/* 图标 */
+	.u-icon{
+		 color:  #3e8253 !important;
+	}
+	/* 按钮 */
+	background: linear-gradient(45deg, rgb(62, 130, 83), rgb(62, 130, 83)) !important;
+	color: #fff !important;
+	//底部
+	.u-tabbar__content__item{
+		background: linear-gradient(45deg, rgb(62, 130, 83), rgb(62, 130, 83)) !important;
+		.u-tabbar__content__item__text{
+			color: #fff !important;
+		}
+		.u-iconfont{
+			color: #fff !important;
+		}
+	}
+	//底部
+	.tabbar-item{
+		background: linear-gradient(45deg, rgb(62, 130, 83), rgb(62, 130, 83)) !important;
+	 }
+	.tabbarActive{
+		color:  #fff!important;
+	}
+	.tab-icon,.tab-text{
+		color:  #f4f4f4 !important;
+	}
+	.tab-icon-select{
+		color:  #fff !important;
+	}
+}
+
+
+/* =============================芒果黄============================= */
+[data-theme='yellow']{
+	/* 图标 */
+	.u-icon{
+		 color:  #ef9618 !important;
+	}
+	//底部
+	.u-tabbar__content__item{
+		background: linear-gradient(45deg, rgb(239, 150, 24), rgb(239, 150, 24)) !important;
+		.u-tabbar__content__item__text{
+			color: #fff !important;
+		}
+		.u-iconfont{
+			color: #fff !important;
+		}
+	}
+	color: #fff !important;
+	background: linear-gradient(45deg, rgb(239, 150, 24), rgb(239, 150, 24)) !important;
+	//底部
+	.tabbar-item{
+		 background-color: #ef9618!important;
+	 }
+	.tabbarActive{
+		color:  #fff!important;
+	}
+	.tab-icon,.tab-text{
+		color:  #f4f4f4 !important;
+	}
+	.tab-icon-select{
+		color:  #fff !important;
+	}
+}

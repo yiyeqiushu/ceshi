@@ -1,0 +1,7 @@
+{
+  "name": "getRandomFive",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

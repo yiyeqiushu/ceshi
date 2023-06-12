@@ -1,0 +1,7 @@
+{
+  "name": "conditional_query",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
